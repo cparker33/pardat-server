@@ -1,0 +1,20 @@
+{
+  "name": "pardat-server",
+  "version": "0.0.1",
+  "description": "pardat plus server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"nodemon server/server\" \"cd client && npm run dev\""
+  },
+  "author": "Caleb Parker <caleb@theparker.me> (https://github.com/cparker33)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.2",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
+  }
+}
