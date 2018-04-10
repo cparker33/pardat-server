@@ -4,7 +4,7 @@
   "description": "pardat plus server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "dev": "concurrently \"nodemon server/server\" \"cd client && npm run dev\""
   },
   "author": "Caleb Parker <caleb@theparker.me> (https://github.com/cparker33)",
@@ -16,5 +16,9 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "nodemon": "^1.17.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
   }
 }
